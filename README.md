@@ -20,23 +20,12 @@ Installation
 
 SwiftyRSA uses Swift 5.0 and requires Xcode 10.2+.
 
-With Cocoapods:
+With SPM:
 
 ```
-pod 'SwiftyRSA'
+.package(url: "https://github.com/weihas/SwiftyRSA.git", .upToNextMajor(from: "1.0.0"))
 ```
 
-With Carthage:
-
-```
-github "TakeScoop/SwiftyRSA"
-```
-
-### Objective-C
-
-```
-pod 'SwiftyRSA/ObjC'
-```
 
 
 Quick Start
